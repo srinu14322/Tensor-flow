@@ -6,8 +6,7 @@ jax==0.4.24
 matplotlib==3.5.3
 ml-dtypes==0.3.2
 mlxtend==0.23.1
-numpy==1.24.3
-onnxruntime==1.17.3
+numpy>=1.22,<1.24
 opt-einsum==3.3.0
 pandas==2.2.1
 pyarrow==15.0.2
@@ -19,3 +18,4 @@ sentence-transformers==2.7.0
 streamlit==1.33.0
 tensorboard==2.12.3
 tensorflow==2.12.0
+onnxruntime==1.14.1  
