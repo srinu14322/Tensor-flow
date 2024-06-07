@@ -31,14 +31,14 @@ def app():
 
     # Dataset selection
     dataset_options = {
-        "Dataset 1": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\1.ushape.csv",
-        "Dataset 2": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\2.concerticcir1.csv",
-        "Dataset 3": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\3.concertriccir2.csv",
-        "Dataset 4": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\4.linearsep.csv",
-        "Dataset 5": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\5.outlier.csv",
-        "Dataset 6": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\6.overlap.csv",
-        "Dataset 7": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\7.xor.csv",
-        "Dataset 8": r"C:\Users\SRINU\Downloads\Multiple CSV (1)\Multiple CSV\8.twospirals.csv"
+        "Dataset 1": "1.ushape.csv",
+        "Dataset 2": "2.concerticcir1.csv",
+        "Dataset 3": "3.concertriccir2.csv",
+        "Dataset 4": "4.linearsep.csv",
+        "Dataset 5": "5.outlier.csv",
+        "Dataset 6": "6.overlap.csv",
+        "Dataset 7": "7.xor.csv",
+        "Dataset 8": "8.twospirals.csv"
     }
     dataset_choice = st.sidebar.selectbox("Choose a dataset", list(dataset_options.keys()))
     dataset_path = dataset_options[dataset_choice]
